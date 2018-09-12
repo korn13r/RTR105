@@ -1,5 +1,5 @@
 # RTR105
-Datormacības kursa elektroniskā klade  
+## Datormacības kursa elektroniskā klade ##  
 
    **2. nodarbības Linux komandas** 
    
