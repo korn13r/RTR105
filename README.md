@@ -1,4 +1,8 @@
 # RTR105
 Datormacības kursa elektroniskā klade  
-**Ctrl+Alt+t** - termināla izsaukšana  
+   **2. nidarbības Linux komandas**  
+-Ctrl+Alt+t - termināla izsaukšana   
+-Ctrl+Shift+t - atvērt terminalā jaunu lapu 
+-Tab(x2) - visas komandas
+-
 
