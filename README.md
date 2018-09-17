@@ -19,7 +19,35 @@
 * ls -l - *detalizēta informācija*   
 * ls -la - *visu objektu saraksts*  
 * history - *apskatīt komandu vēsturi*  
-* history > history_date.txt - *saglabāt komandu vēsturi failā ar nosaukumu history_date*  
+* history > history_date.txt - *saglabāt komandu vēsturi failā ar nosaukumu history_date*    
+
+**3. nodarbības Linux komandas**
+
+* cd Music - pārvietoties mapē *Music*  
+* cd . - pārvietoties uz tekošo direktoriju (solis uz vietas)  
+* cd .. - pārvietoties uz vienu līmēni augstāk (solis atpakaļ)  
+* / - saknes apgabala direktorija (root) piemērs:cd /  
+* cd /home/user/ - apgabals, uz kuru gribu doties  
+* cd ~ relatīvais mājas apgabals  
+* cd+Enter - ātri pārvietoties uz mājas apgabalu  
+* mkdir ManaMape - izveidot mapi ar nosaukumu *ManaMape*  
+* rmdir ManaMape - dzēst mapi ar nosaukumu *ManaMape*  
+* rm -r - dzēst mapi ar visām apakšmapēm  
+* echo "Teksts" - attēlot tekstu: "Teksts"  
+* echo -e "Teksts\nTeksts\nTeksts" - \n pārvieto kursoru uz nakamo rindu   
+* echo "Teksts" > fails1.txt - ievietot tekstu "Teksts" failā ar nosaukumu fails1.txt  
+                             - ja tāda faila nebija, tas tiks izveidots  
+                             - ja bija, tad fails tikd pārrakstīts  
+* cat fails1.txt - apskatīt failu  
+* more fails1.txt - apskatīt failu  
+* less fails1.txt - apskatīt failu  
+* echo "Papildus teksts" >> fails1.txt - papildināt failu ar tekstu   
+* nano fails1.txt - atvērt failu teksta redaktorā. Saglabāt ar Crtl+X  
+* chmod **540** fails1.txt - mainīt tiesības failam  
+                  rwx rwx rwx  
+                  101 100 000  
+               **5** **4** **0**  
+* echo "Teksts" > ../fails1.txt - 
 
 
 
