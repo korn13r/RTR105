@@ -46,10 +46,10 @@
 * chmod **540** fails1.txt - mainīt tiesības failam  
                   rwx rwx rwx  
                   101 100 000  
-               **5**     **4**     **0**  
+               **5**  \   **4**     **0**  
 * echo "Teksts" > ../fails1.txt - ieraksīt tekstu failā, kas atrodas vienu direktoriju augstāk  
 * cp fails1.txt fails101.txt - kopēt failu "fails1.txt" failā "fails101.txt"  
-* mv *1*.txt Music/ - pārvietot visus failus, kuri nosaukumā satur "1" uz mapi Music/  
+* mv \*1*.txt Music/ - pārvietot visus failus, kuri nosaukumā satur "1" uz mapi Music/  
 * ls Music/ - pārādīt objektus, kas atrodas mape Music/  
 * rm Music/fails101.txt - dzēst failu no mapes Music/  
 * rm fails*.txt - dzēst visus failus, kuriem nosaukums sākas ar burtiem "fails..."  
