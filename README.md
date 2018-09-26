@@ -46,7 +46,7 @@
 * chmod **540** fails1.txt - mainīt tiesības failam  
                   rwx rwx rwx  
                   101 100 000  
-               **5**           **4**          **0**  
+               **5** **4** **0**  
 * echo "Teksts" > ../fails1.txt - ieraksīt tekstu failā, kas atrodas vienu direktoriju augstāk  
 * cp fails1.txt fails101.txt - kopēt failu "fails1.txt" failā "fails101.txt"  
 * mv \*1*.txt Music/ - pārvietot visus failus, kuri nosaukumā satur "1" uz mapi Music/  
@@ -54,5 +54,10 @@
 * rm Music/fails101.txt - dzēst failu no mapes Music/  
 * rm fails*.txt - dzēst visus failus, kuriem nosaukums sākas ar burtiem "fails..."  
 
-
-
+**4.nodarbība**  
+* chmod 764 mans_skripts.sh - mainīt tiesības failam mans_skripts.sh ({7-lietotājam rwx}{6-lietotāja grupai rw-}{4-pārējiem r--})  
+* nano mans_skripts.sh - izveidot skriptu  
+ #!/bin/bash - skripta sākumā jānorāda ar kādu interpretātoru jāizpilda tālāk sekojošas darbības    
+* echo $PATH - sistēmas mainīgais, kur ierarstīti ceļi, kur var atraties izpildāmās komandas  
+ PATH=$PATH:/home/user/ - pievienot direktoriju /home/user/ sistēmas mainīgajam **PATH**(lai katru reizi nerakstītu pilnu ceļu līdz izpildāmajam failam)    
+* git clone https://github.com/korn13r/RTR105 - lejupielādēt visus failus no mana repozitorija    
