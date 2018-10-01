@@ -54,10 +54,27 @@
 * rm Music/fails101.txt - dzēst failu no mapes Music/  
 * rm fails*.txt - dzēst visus failus, kuriem nosaukums sākas ar burtiem "fails..."  
 
-**4.nodarbība**  
 * chmod 764 mans_skripts.sh - mainīt tiesības failam mans_skripts.sh ({7-lietotājam rwx}{6-lietotāja grupai rw-}{4-pārējiem r--})  
 * nano mans_skripts.sh - izveidot skriptu  
  #!/bin/bash - skripta sākumā jānorāda ar kādu interpretātoru jāizpilda tālāk sekojošas darbības    
 * echo $PATH - sistēmas mainīgais, kur ierarstīti ceļi, kur var atraties izpildāmās komandas  
  PATH=$PATH:/home/user/ - pievienot direktoriju /home/user/ sistēmas mainīgajam **PATH**(lai katru reizi nerakstītu pilnu ceļu līdz izpildāmajam failam)    
-* git clone https://github.com/korn13r/RTR105 - lejupielādēt visus failus no mana repozitorija    
+* git clone https://github.com/korn13r/RTR105 - lejupielādēt visus failus no mana repozitorija  
+
+
+**5.nodarbība**   
+python  
+* vars() - šīs vides pieejamo objektu vārdnīca  
+* __.builtins__.__doc__ - objekta apraksts   
+ipython
+* print(__builtin__.__doc__) - dokumentācijas izsaukšana  
+idle &  
+* type(a)  
+* type(b)  
+* type(c)  
+    - noskaidrot datu tipu mainīgajiem : a, b, c   
+    print - funkcija informācijas attēlošanai uz ekrāna  
+* print("a = %d"%(a)) - d - formāts(integer)  
+* print("b = %.4f"%(b)) - .4f - attēlot mainīgā **b** rezultātā 4 ciparus pēc komata. formāts (float)  
+* print("c = %s"%(c)) - s - formāts(str)  
+
