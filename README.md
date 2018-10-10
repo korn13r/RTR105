@@ -78,3 +78,18 @@ idle &
 * print("b = %.4f"%(b)) - .4f - attēlot mainīgā **b** rezultātā 4 ciparus pēc komata. formāts (float)  
 * print("c = %s"%(c)) - s - formāts(str)  
 
+x = 2  
+x = x + 2  
+print(x)  
+jj = 23
+kk = jj % 5 - reminder (atlikums no dalīšanas)  
+print(kk)  - attēlot kk  
+print(4 ** 3) - pakāpe  
+x = 1 + 2 ** 3 / 4 * 5 - darbību saraksts  
+1 - 2 ** 3  power
+2 - 8 / 4  division  
+3 - 2 * 5  multiplication  
+4 - 1 + 10 addition  
+
+
+
