@@ -89,7 +89,41 @@ x = 1 + 2 ** 3 / 4 * 5 - darbību saraksts
 1 - 2 ** 3  power
 2 - 8 / 4  division  
 3 - 2 * 5  multiplication  
-4 - 1 + 10 addition  
+4 - 1 + 10 addition   
+>> ddd= 1 + 4
+>>> print(ddd)
+5
+>>> eee  'hello ' + 'there'
+>>> print(eee)
+hello there
+>>> print(float(99) + 100)
+199.0
+>>> i = 42
+>>> type(i) - noskaidrot mainīgā i tipu
+<class'int'>
+>>> f = float(i)
+>>> print(f)
+42.0
+>>> type(f) - noskaidrot mainīgā f tipu  
+<class'float'>
+
+>>> sval= '123'
+>>> type(sval)
+<class 'str'>
+>>> print(sval+1)
+Traceback(most recent call last):  File "<stdin>", 
+line 1, in <module>
+TypeError: Can't convert 'int' object to str implicitly
+>>> ival= int(sval) - mainīt mainīgā tipu uz int
+>>> type(ival)
+<class 'int'>
+>>> print(ival+ 1)
+124
+>>> nsv= 'hello bob'
+>>> niv= int(nsv)
+Traceback
+(most recent call last):  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int () with base 10: 'x
 
 
 
