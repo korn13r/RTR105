@@ -5,5 +5,6 @@ git config --global user.email janiskorn94@gmail.com
 git add .
 #git commit -m "20180926"
 git commit -m $1
+git pull
 git push origin master
 fi
