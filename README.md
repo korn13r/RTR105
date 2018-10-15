@@ -124,6 +124,17 @@ TypeError: Can't convert 'int' object to str implicitly
 Traceback
 (most recent call last):  File "<stdin>", line 1, in <module>
 ValueError: invalid literal for int () with base 10: 'x
+  
+  8. nodarbība  
+  
+Comparison Operators:  
+< - mazāk kā  
+<= - mazāk vai vienāds kā  
+== - vienāds  
+>= - lielāks vai vienāds  
+> - lielāks  
+!= - NAV vienāds ar  
+
 
 
 
