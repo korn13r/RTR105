@@ -1,0 +1,357 @@
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> x = 5
+>>> if x < 10:
+	print('Smaller')
+    if x > 20:
+	    
+  File "<pyshell#3>", line 3
+    if x > 20:
+             ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 10:
+	print('Smaller')
+    if x > 20:
+	    
+  File "<pyshell#4>", line 3
+    if x > 20:
+             ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 10:
+	print('Smaller')
+    if x > 20: print
+    
+  File "<pyshell#5>", line 3
+    if x > 20: print
+                   ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 10:
+	print('Smaller')
+    if x > 20: print('Bigger')
+    
+  File "<pyshell#6>", line 3
+    if x > 20: print('Bigger')
+                             ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 10:
+	print('Smaller')
+    if x > 20: print('Bigger')
+    
+  File "<pyshell#7>", line 3
+    if x > 20: print('Bigger')
+                             ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 10:
+	print('Smaller')
+    if x > 20: print('Bigger')
+    
+  File "<pyshell#8>", line 3
+    if x > 20: print('Bigger')
+                             ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 10:
+	print('Smaller')
+    if x > 20: print('Bigger') print('Finis')
+    
+  File "<pyshell#9>", line 3
+    if x > 20: print('Bigger') print('Finis')
+                                            ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 10:
+	print('Smaller')
+    if x > 20:
+	    
+  File "<pyshell#10>", line 3
+    if x > 20:
+             ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 10:
+	print('Smaller')
+	if x > 20:
+		print('Bigger')
+
+		
+Smaller
+>>> if x < 10:
+	print('Smaller')
+	if x > 20:
+		print('Bigger')
+		print ('Finish')
+
+		
+Smaller
+>>> x = 5
+>>> if x == 5:
+	print('Ēquals 5')
+	if x > 4:
+		print('Ģreater than or Equals 5')
+		if x < 6:
+			print('Less than or Equals 5')
+			if x != 6:
+				print('Not Equals 6')
+
+				
+Ēquals 5
+Ģreater than or Equals 5
+Less than or Equals 5
+Not Equals 6
+>>> if x == 5:
+	print('Equals 5')
+	if x > 4:
+		print('Greater than or Equals 5')
+		if x < 6:
+			print('Less than or Equals 5')
+			if x != 6:
+				print('Not Equals 6')
+
+				
+Equals 5
+Greater than or Equals 5
+Less than or Equals 5
+Not Equals 6
+>>> x == 5
+True
+>>> x = 5
+>>> print('Before 5')
+Before 5
+>>> if x == 5:
+	print('Is 5')
+	print('Is Still 5')
+	print('Third 5')
+	print('Afterwards 5')
+	print('Before 6')
+	if x == 6:
+		print('Is 6')
+		print('Is Still 6')
+		print('Third 6')
+		print('Afterwards 6')
+
+		
+Is 5
+Is Still 5
+Third 5
+Afterwards 5
+Before 6
+>>> x = 5
+>>> if x > 2:
+	print('Bigger than 2')
+	print('Still bigger')
+	print('Done with 2')
+
+	
+Bigger than 2
+Still bigger
+Done with 2
+>>> x = 5
+>>> 
+================= RESTART: /home/user/RTR105/dgr_20181015.py =================
+
+Traceback (most recent call last):
+  File "/home/user/RTR105/dgr_20181015.py", line 1, in <module>
+    if x < 10:
+NameError: name 'x' is not defined
+>>> 
+================= RESTART: /home/user/RTR105/dgr_20181015.py =================
+Smaller
+Equals 5
+Greater than or Equals 5
+Less than or Equals 5
+Not Equals 6
+Before 5
+Is 5
+Is Still 5
+Third 5
+Afterwards 5
+Before 6
+Bigger than 2
+Still bigger
+Done with 2
+Bigger than 2
+Still bigger
+Done with 2
+0
+1
+2
+3
+Bigger than 2
+('Done with i', 3)
+All Done
+4
+Bigger than 2
+('Done with i', 4)
+All Done
+>>> 
+================= RESTART: /home/user/RTR105/dgr_20181015.py =================
+Smaller
+Equals 5
+Greater than or Equals 5
+Less than or Equals 5
+Not Equals 6
+Before 5
+Is 5
+Is Still 5
+Third 5
+Afterwards 5
+Before 6
+Bigger than 2
+Still bigger
+Done with 2
+Bigger than 2
+Still bigger
+Done with 2
+0
+1
+2
+3
+Bigger than 2
+('Done with i', 3)
+All Done
+4
+Bigger than 2
+('Done with i', 4)
+All Done
+More than one
+Less than 100
+All Done
+>>> 
+================= RESTART: /home/user/RTR105/dgr_20181015.py =================
+Smaller
+Equals 5
+Greater than or Equals 5
+Less than or Equals 5
+Not Equals 6
+Before 5
+Is 5
+Is Still 5
+Third 5
+Afterwards 5
+Before 6
+Bigger than 2
+Still bigger
+Done with 2
+Bigger than 2
+Still bigger
+Done with 2
+0
+1
+2
+3
+Bigger than 2
+('Done with i', 3)
+All Done
+4
+Bigger than 2
+('Done with i', 4)
+All Done
+More than one
+Less than 100
+All Done
+Bigger
+All done
+>>> x = 4
+if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+print('All done')
+>>> 
+>>> 
+>>> 
+>>> x = 4
+>>> if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+print('All done')
+SyntaxError: invalid syntax
+>>> x = 4
+>>> if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+    print('All done')
+
+    
+Medium
+>>> x = 0
+>>> if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+    print('All done')
+
+    
+small
+>>> x = 5
+>>> if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+    print('All done')
+
+    
+Medium
+>>> if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+    print('All done')
+
+    
+Medium
+>>> x = 20
+>>> if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+    print('All done')
+
+    
+LARGE
+All done
+>>> if x < 2:
+    print('small')
+ elif x < 10:
+    print('Medium')
+ else:
+    print('LARGE')
+print('All done')
+  File "<pyshell#78>", line 3
+    elif x < 10:
+               ^
+IndentationError: unindent does not match any outer indentation level
+>>> if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+print('All done')
+SyntaxError: invalid syntax
+>>> if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+    print('All done')
+
+    
+LARGE
+All done
+>>> 
