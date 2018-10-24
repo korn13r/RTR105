@@ -136,5 +136,4 @@ Comparison Operators:
 != - NAV vienāds ar  
 
 
-
-
+loops - failā dgr_20181024.py - cikli
