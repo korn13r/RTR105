@@ -143,13 +143,13 @@ Nosacījuma operators if
 Sintakse:
 
 if (saliktais)nosacījums:
-    vismaz viena darbība                    4 atstarpes
-    var būt vairākas darbības                4 atstarpes
+    vismaz viena darbība                   - 4 atstarpes
+    var būt vairākas darbības              -  4 atstarpes
 darbības ārpus nosacījuma operatora(tiks izpildīta jebkurā gadījumā)
 
 if nosacījums:  
-    vismaz viena darbība                       4 atstarpes
-    var būt citas darbības                        4 atstarpes
+    vismaz viena darbība                      - 4 atstarpes
+    var būt citas darbības                       - 4 atstarpes
 elif nosacījums:                         - tik līdz tiks izpildīts viens nosacījums, citi netiks pārbaudīti 
     vismaz viena darbība  
     var būt citas darbības  
@@ -157,25 +157,58 @@ darbības ārpus nosacījuma operatora
 
 
 if nosacījums:  
-    vismaz viena darbība                      4 atstarpes  
-    var būt citas darbības                    4 atstarpes  
+    vismaz viena darbība                     - 4 atstarpes  
+    var būt citas darbības                  -  4 atstarpes  
 else nosacījums:                  
-    vismaz viena darbība                       4 atstarpes  
-    var būt citas darbības                     4 atstarpes  
+    vismaz viena darbība                      - 4 atstarpes  
+    var būt citas darbības                     -4 atstarpes  
 darbības ārpus nosacījuma operatora  
 
 
 Lietotāja fukcija  def            (koda garuma samazināšanai, koda struktūras caurskatīšanai)  
 
 def fukcijas_vārds():  
-    vismaz_viena_darbība                           4 atstarpes  
-    var_būt_citas_darbības                         4 atstarpes  
+    vismaz_viena_darbība                         -  4 atstarpes  
+    var_būt_citas_darbības                        - 4 atstarpes  
 darbības_ārpus_fukcijas_apraksta  
 
 def fukcijas_vārds(arguments(i)):  
-    vismaz_viena_darbība                           4 atstarpes
-    var_būt_citas_darbības                         4 atstarpes
+    vismaz_viena_darbība                           -4 atstarpes
+    var_būt_citas_darbības                        -4 atstarpes
 darbības_ārpus_fukcijas_apraksta  
+
+
+return - atgriež funkcijas vērtību        - tiklīdz funkcija gaitā parādās return, tālākās darbības netiek izpildītas!  
+
+
+
+                                      CIKLI  
+while
+ 
+while (saliktais)nosacījums:   
+    vismaz_viena_darbība                       - 4 atstarpes    
+    break               - tiek pārtraukta cikla izpilde  
+
+while (saliktais)nosacījums:  
+    vismaz_viena_darbība   
+    continue               - pārtrauc cikla soli, dodas pie nosacījuma  
+    
+    
+    
+for cikla_mainīgais in [saraksts]:        - cikla mainīgais iziet caur sarakstu  izpildot uzdotās darbības  
+    vismaz_viena_darbība  
+    
+    
+for cikla_mainīgais in [saraksts]:        
+    vismaz_viena_darbība  
+    continue                  - pāriet pie nākamā saraksta elementa
+    
+for cikla_mainīgais in [saraksts]:       
+    vismaz_viena_darbība   
+    break                     - tiek pārtraukta cikla izpilde  
+    
+    
+    
 
 
 
