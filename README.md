@@ -113,7 +113,7 @@ hello there
 >>> print(sval+1)
 Traceback(most recent call last):  File "<stdin>", 
 line 1, in <module>
-TypeError: Can't convert 'int' object to str implicitly
+TypeError: Can't convert 'int' object to str implicitly    - rindai nevar pieskaitīt skaitli !
 >>> ival= int(sval) - mainīt mainīgā tipu uz int
 >>> type(ival)
 <class 'int'>
@@ -128,6 +128,7 @@ ValueError: invalid literal for int () with base 10: 'x
   8. nodarbība  
   
 Comparison Operators:  
+
 < - mazāk kā  
 <= - mazāk vai vienāds kā  
 == - vienāds  
@@ -136,4 +137,47 @@ Comparison Operators:
 != - NAV vienāds ar  
 
 
-loops - failā dgr_20181024.py - cikli
+loops - failā dgr_20181024.py - cikli  
+
+Nosacījuma operators if  
+Sintakse:
+
+if (saliktais)nosacījums:
+    vismaz viena darbība                    4 atstarpes
+    var būt vairākas darbības                4 atstarpes
+darbības ārpus nosacījuma operatora(tiks izpildīta jebkurā gadījumā)
+
+if nosacījums:  
+    vismaz viena darbība                       4 atstarpes
+    var būt citas darbības                        4 atstarpes
+elif nosacījums:                         - tik līdz tiks izpildīts viens nosacījums, citi netiks pārbaudīti 
+    vismaz viena darbība  
+    var būt citas darbības  
+darbības ārpus nosacījuma operatora    
+
+
+if nosacījums:  
+    vismaz viena darbība                      4 atstarpes  
+    var būt citas darbības                    4 atstarpes  
+else nosacījums:                  
+    vismaz viena darbība                       4 atstarpes  
+    var būt citas darbības                     4 atstarpes  
+darbības ārpus nosacījuma operatora  
+
+
+Lietotāja fukcija  def            (koda garuma samazināšanai, koda struktūras caurskatīšanai)  
+
+def fukcijas_vārds():  
+    vismaz_viena_darbība                           4 atstarpes  
+    var_būt_citas_darbības                         4 atstarpes  
+darbības_ārpus_fukcijas_apraksta  
+
+def fukcijas_vārds(arguments(i)):  
+    vismaz_viena_darbība                           4 atstarpes
+    var_būt_citas_darbības                         4 atstarpes
+darbības_ārpus_fukcijas_apraksta  
+
+
+
+
+
