@@ -204,8 +204,18 @@ for cikla_mainīgais in [saraksts]:
     
     
     
+String Library
 
-
+str.capitalize
+str.center(width[,fillchar])
+str.endswith(suffix[,start[, end]])
+str.find(sub[,start[, end]])
+str.lstrip([chars])
+str.rstrip([chars])
+str.strip([chars])
+str.replace(old, new[, count])
+str.lower()
+str.upper()
 
 
 

@@ -1,0 +1,23 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  git clone https://github.com/laaciits/RTR105
+    5  cd RTR105
+    6  idle &
+    7  history
+    8  history > history20181103.txt
+    9  history > history20181105.txt
+   10  ./git-upload 20181105_15_34
+   11  firefox 7
+   12  ls -lt
+   13  rm RTR105
+   14  rm -rf RTR105
+   15  ls -lt
+   16  git clone https://github.com/korn13r/RTR105
+   17  cd RTR105/
+   18  ls -lt
+   19  idle &
+   20  ls -lt
+   21  nano dgr_20181105.py
+   22  nano README.md 
+   23  history > history_20181105_17_22.txt
