@@ -219,3 +219,9 @@ str.upper()
 
 
 
+Darbības ar failu:  (dgr_20181107.py - piemēri)
+
+handle = open(filename, mode)
+piemērs: fhand = open('mbox-short.txt', 'r')
+'r' - read only
+'W' - write to the file
