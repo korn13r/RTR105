@@ -1,0 +1,12 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  nano sin_caur_summu_ver1.py
+    4  idle &
+    5  ls -lt
+    6  git clone https://github.com/korn13r/RTR105
+    7  ls -lt
+    8  mv sin_caur_summu_ver1.py RTR105/
+    9  ls -lt
+   10  cd RTR105
+   11  ls -lt
+   12  history > history_20181112_17_58.txt
