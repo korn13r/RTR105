@@ -11,9 +11,6 @@ plt.ylabel('f(x)')
 plt.title('Funkcija $sin(x*x)$')
 plt.plot(x, y)
 plt.plot(x, y, color = "#34DF00")
-#y2 = sin(x)
-#plt.plot(x,y2)
-#plt.plot(x, y2, color = "#50004E")
 plt.show()
 
 
